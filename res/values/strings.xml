@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Pedometer</string>
+    <string name="action_settings">Settings</string>
+    <string name="contact_zh_">联系我们:</string><string name="contact_us_">Contact us:</string>
+    <string name="email_zh_">联系我们以获得更多信息：</string>
+    <string name="email_us_">Contact us to get more details: johnnyrmin@gmail.com</string>
+    
+    <string name="devinfo_zh_">开发者信息</string>
+    <string name="devinfo_us_">Developer Information</string>
+    <string name="devinfo_line1_">Main Programer: Aries Jiang and Johnny Zhang</string>
+    <string name="devinfo_line2_">UI Designer: Johnny Zhang</string>
+    <string name="devinfo_line3_">Inventor: John Shi</string>
+    <string name="devinfo_line4_">Program Logic Donator and Coder: Aries Jiang</string>
+    <string name="devinfo_line5_" tools:ignore="TypographyOther">(c) 2013 Aries Jiang. All Rights Reserved.</string>
+    <string name="version_info_zh_">版本信息</string>
+    <string name="version_info_us_">Version Information</string>
+    <string name="version_line1_">This Version is a beta version to test compatibility. Test version v1.2 for presentation.</string>
+    <string name="version_line2_"/>
+
+</resources>

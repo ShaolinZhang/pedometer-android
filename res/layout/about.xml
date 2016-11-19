@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".about" >
+
+	<TextView
+            android:id="@+id/Contact_zh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_zh_"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+	
+	<TextView
+            android:id="@+id/Contact_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us_" 
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+	
+	<TextView 
+	    	android:id="@+id/Email_zh"
+	    	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_zh_"/>
+	
+	<TextView 
+	    	android:id="@+id/Email_en"
+	    	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_us_"/>
+
+	<TextView
+	    android:id="@+id/blank1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text=""
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView
+	    android:id="@+id/Devinfo_zh"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/devinfo_zh_"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView
+	    android:id="@+id/Devinfo_en"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/devinfo_us_"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<TextView
+	    android:id="@+id/Devinfo_line1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/devinfo_line1_"/>
+		
+	<TextView
+	    android:id="@+id/Devinfo_line2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/devinfo_line2_"/>
+		
+	<TextView
+	    android:id="@+id/Devinfo_line3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/devinfo_line3_"/>
+		
+	<TextView
+	    android:id="@+id/Devinfo_line4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/devinfo_line4_"/>
+	
+	<TextView
+	    android:id="@+id/Devinfo_line5"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/devinfo_line5_"/>
+	
+	<TextView
+	    android:id="@+id/blank2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text=""
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<TextView 
+	    android:id="@+id/Version_info_Zh"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/version_info_zh_"
+	    android:textAppearance="?android:attr/textAppearanceMedium"/>
+	
+	<TextView 
+	    android:id="@+id/Version_info_En"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/version_info_us_"
+	    android:textAppearance="?android:attr/textAppearanceMedium"/>
+	
+	<TextView 
+	    android:id="@+id/Version_line1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/version_line1_"/>
+
+	<ImageView
+	    android:contentDescription="@string/version_line2_"
+	    android:id="@+id/imageView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/teamlogo" />
+	
+</LinearLayout>

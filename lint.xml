@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak" severity="ignore" />
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/calibration.xml" />
+    </issue>
+    <issue id="UnusedResources" severity="ignore" />
+    <issue id="UseSparseArrays" severity="ignore" />
+</lint>
